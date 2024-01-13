@@ -40,6 +40,26 @@ Você pode testar o funcionamento do servidor utilizando o Postman. Siga os pass
 
 ...
 
+## Criação do package.json
+
+O arquivo package.json é utilizado para gerenciar as dependências e scripts do projeto. Você pode criar o arquivo utilizando o comando:
+
+- npm init
+
+...
+
+## Uso do Express
+
+O Express é um framework web para Node.js que facilita a criação de aplicativos web e APIs. Neste projeto, o Express é utilizado para criar o servidor e definir os endpoints.
+
+...
+
+## Uso do Nodemon
+
+O Nodemon é um utilitário que monitora as mudanças nos arquivos do seu projeto e reinicia automaticamente o servidor Node. Isso é especialmente útil durante o desenvolvimento para evitar a necessidade de reiniciar manualmente o servidor a cada alteração.
+
+...
+
 ## Estrutura do Projeto
 
 - index.js: Ponto de entrada do aplicativo.
