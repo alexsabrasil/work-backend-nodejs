@@ -7,6 +7,8 @@
 
 Este é um projeto básico de backend em Node.js usando o framework Express. Ele responde a uma requisição GET com um JSON simples. O Nodemon é utilizado para facilitar o desenvolvimento, monitorando as mudanças nos arquivos e reiniciando automaticamente o servidor Node.
 
+...
+
 ## Pré-requisitos
 
 Certifique-se de ter o Node.js e o npm instalados no seu sistema.
@@ -25,7 +27,19 @@ Certifique-se de ter o Node.js e o npm instalados no seu sistema.
 ## Endpoints
 
 - GET /: Retorna um JSON com a mensagem de boas-vindas.
-  
+
+...
+
+## Testes no Postman
+
+Você pode testar o funcionamento do servidor utilizando o Postman. Siga os passos abaixo:
+
+- Abra o Postman e crie uma nova solicitação.
+- Configure a solicitação como um método GET com a URL http://localhost:3000.
+- Envie a solicitação e verifique a resposta JSON.
+
+...
+
 ## Estrutura do Projeto
 
 - index.js: Ponto de entrada do aplicativo.
@@ -34,6 +48,8 @@ Certifique-se de ter o Node.js e o npm instalados no seu sistema.
 - README.md: Documentação do projeto.
 - .gitignore: Lista de arquivos e diretórios a serem ignorados pelo Git.
 - LICENSE: Licença do projeto.
+
+...
 
 ## Contribuição
 
